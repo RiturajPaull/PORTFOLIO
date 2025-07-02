@@ -8,7 +8,7 @@ const Navbar = () => {
   const navigate = useNavigate();
   return (
     <div className=" max-w-2xl mx-auto my-8 relative">
-      <div className=" w-full flex items-center justify-around text-white bg-black/90 -z-1 px-2 py-2 rounded-full mb-30">
+      <div className=" w-full flex items-center justify-around text-white bg-black/90 -z-1 px-2 py-2 rounded-full mb-30 ">
         <img
           src={assets.brandLogo}
           onClick={() => navigate("/")}
@@ -23,7 +23,10 @@ const Navbar = () => {
         >
           Projects
         </a>
-        <a className="cursor-pointer hover:scale-105 hidden sm:block">
+        <a
+          href="#experience"
+          className="cursor-pointer hover:scale-105 hidden sm:block"
+        >
           Experience
         </a>
         <div className="border-l pl-5 flex items-center justify-between gap-5">

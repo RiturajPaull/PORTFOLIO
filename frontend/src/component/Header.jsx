@@ -9,7 +9,7 @@ const Header = () => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       id="home"
-      className=" border-gray-400 mx-5 max-w-5xl sm:mx-auto mb-20 rounded-lg"
+      className=" border-gray-400 mx-5 max-w-5xl sm:mx-auto mb-20 rounded-lg scroll:smooth"
     >
       <motion.div
         initial={{ opacity: 0, y: -20 }}
