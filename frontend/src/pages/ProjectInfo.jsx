@@ -5,6 +5,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import Footer from "../component/Footer";
 import Navbar from "../component/Navbar";
+import Loader from "../component/Loader";
 const ProjectInfo = () => {
   const { id } = useParams();
   const [projectData, setProjectData] = useState(null);
@@ -64,7 +65,7 @@ const ProjectInfo = () => {
       <Footer />
     </div>
   ) : (
-    <div>Loading......</div>
+    <Loader />
   );
 };
 

@@ -30,6 +30,7 @@ export const project_data = [
   {
     id: "12121212",
     image: project1,
+    inProgress: false,
     title: "Text to Image Using AI",
     description:
       "This is a project that converts text into images using AI.The name of the AI is ClipDrop AI",
@@ -37,6 +38,7 @@ export const project_data = [
   {
     id: "13131313",
     image: project2,
+    inProgress: true,
     title: "AI powered Blogging Platform",
     description:
       " This is a project that uses Gemini AI and ImageKit API to create a blogging platform",
