@@ -39,9 +39,12 @@ const Header = () => {
           solutions, and driven to grow in tech.
         </motion.p>
         <div className="flex items-center gap-5">
-          <button className="text-lg border px-4 py-1 rounded-lg bg-black text-white hover:scale-105 hover:bg-black/80">
+          <a
+            href="#contact"
+            className="text-lg border px-4 py-1 rounded-lg bg-black text-white hover:scale-105 hover:bg-black/80"
+          >
             Hire Me!
-          </button>
+          </a>
           <p className="text-lg border px-4 py-1 rounded-full border-green-300 bg-green-100 text-green-600">
             <span className="mr-2">•</span>Available for Collaborations
           </p>
