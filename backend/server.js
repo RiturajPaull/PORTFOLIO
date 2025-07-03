@@ -8,7 +8,8 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 app.use(
   cors({
-    origin: process.env.CLIENT,
+    origin:
+      "https://portfolio-client-git-main-riturajpaulls-projects.vercel.app",
     credentials: true,
   })
 );
