@@ -43,7 +43,9 @@ const ProjectInfo = () => {
       </div>
       <div className="flex item-center justify-start gap-8 px-3 mt-5 h-30 mb-20">
         <a
-          href=""
+          href="https://imagify-practice-ze9j.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex items-center justify-center gap-3 border my-auto px-3 py-4 bg-black text-white rounded-xl cursor-pointer hover:scale-102"
         >
           <p>View Project</p>

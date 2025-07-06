@@ -8,7 +8,7 @@ const Navbar = () => {
   const navigate = useNavigate();
   return (
     <div className=" max-w-2xl mx-auto my-8 relative">
-      <div className=" w-full flex items-center justify-around text-white bg-black/90 -z-1 px-2 py-2 rounded-full mb-30 ">
+      <div className=" w-full flex items-start justify-around text-white bg-black/90 -z-1 px-2 py-2 rounded-full mb-30 ">
         <img
           src={assets.brandLogo}
           onClick={() => navigate("/")}
