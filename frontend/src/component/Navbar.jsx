@@ -43,7 +43,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="relative group">
-            <a href="Updated_Resume.pdf" download>
+            <a href="Resume.pdf" download>
               {" "}
               <IoNewspaperOutline className="cursor-pointer w-6 h-6 hover:scale-105 transition-all duration-200" />
             </a>
