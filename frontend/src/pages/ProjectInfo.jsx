@@ -43,7 +43,7 @@ const ProjectInfo = () => {
       </div>
       <div className="flex item-center justify-start gap-8 px-3 mt-5 h-30 mb-20">
         <a
-          href="https://imagify-practice-ze9j.vercel.app"
+          href={`${projectData.vercel_link}`}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-3 border my-auto px-3 py-4 bg-black text-white rounded-xl cursor-pointer hover:scale-102"
@@ -62,7 +62,7 @@ const ProjectInfo = () => {
         </a>
       </div>
       <div className="border px-3 py-3 border-gray-300 rounded-xl">
-        <img src={assets.screen} />
+        <img src={`${projectData.project_image}`} />
       </div>
       <Footer />
     </div>

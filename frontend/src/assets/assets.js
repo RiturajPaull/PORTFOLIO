@@ -11,6 +11,7 @@ import express from "./express-logo.png";
 import project1 from "./Project1.png";
 import project2 from "./Project2.png";
 import screen from "./screen.png";
+import blog from "./blog_image.png";
 export const assets = {
   brandLogo,
   email_icon,
@@ -24,6 +25,7 @@ export const assets = {
   express,
   project1,
   screen,
+  blog,
 };
 
 export const project_data = [
@@ -38,7 +40,7 @@ export const project_data = [
   {
     id: "13131313",
     image: project2,
-    inProgress: true,
+    inProgress: false,
     title: "AI powered Blogging Platform",
     description:
       " This is a project that uses Gemini AI and ImageKit API to create a blogging platform",
@@ -62,5 +64,27 @@ export const project_info = [
       "ClipDrop AI",
     ],
     link: "https://github.com/RiturajPaull/imagify_practice",
+    vercel_link: "https://imagify-practice-ze9j.vercel.app",
+    project_image: screen,
+  },
+  {
+    id: "13131313",
+    title: "Blogging application usin AI",
+    subTitle:
+      "Real-world use case, responsive UI, auth + protected routes, elegant dashboard",
+    description:
+      "I created a Full Stack Blog Application Using Mongodb,Express, React and Nodejs. Here user can write blogs, add comments and approve comments in the Admin dashboard. I have also implemented geminiAI to generate the blog based on the title given by admin. Admin acn also view all the comments and many more",
+    technologies: [
+      "React",
+      "Tailwind CSS 4",
+      "Nodejs",
+      "MongoDB",
+      "Express",
+      "GeminiAI",
+      "ImageKit API",
+    ],
+    link: "https://github.com/RiturajPaull/Blog",
+    vercel_link: "https://blog-opjk.vercel.app",
+    project_image: blog,
   },
 ];
